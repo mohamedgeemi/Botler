@@ -1,6 +1,8 @@
 from channels.routing import route
 from channels import include
-from chat_app.consumers import chat_connect, chat_disconnect, chat_receive, chathistory_connect, chathistory_disconnect, chathistory_receive
+
+from chat_app.consumers import (chat_connect, chat_disconnect, chat_receive,
+                                chathistory_connect, chathistory_disconnect, chathistory_receive)
 
 chat_routes = [
     route("websocket.connect", chat_connect),
