@@ -6,5 +6,5 @@ from chat_app import views
 
 urlpatterns = [
     #Django Views
-    url(r'^chats/$', views.index(), name="index"),
+    url(r'^chats/$', views.ChatIndex.as_view(), name="index"),
     ]
