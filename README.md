@@ -1,4 +1,4 @@
-# Simple Chat System with WebSockets
+# Simple Chat Room with WebSockets
 
 ## Stack
 - Django 1.8
